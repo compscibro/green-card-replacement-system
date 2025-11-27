@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Details</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Application Details</h1>
+    <p class="subtitle">Review information before approving</p>
+</header>
+
+<main class="container">
+
+    <section class="card" id="detailsCard">
+        <!-- Populated dynamically by details.js -->
+    </section>
+
+    <section class="card">
+        <div class="btn-group spaced">
+            <button id="rejectBtn" class="btn-danger">Reject</button>
+            <button id="approveBtn" class="btn-success">Approve</button>
+        </div>
+    </section>
+
+</main>
+
+<!-- Load the Application Details JS page -->
+<script type="module" src="/js/pages/details.js"></script>
+
+</body>
+</html>

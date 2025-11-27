@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Maven / Java build output
+target/
+out/
+*.class
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.properties
+!application.properties        # keep Spring config if needed
+
+# Node (if your images folder uses node tooling, otherwise can remove)
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
